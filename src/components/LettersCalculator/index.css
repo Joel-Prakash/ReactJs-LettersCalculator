@@ -1,0 +1,121 @@
+@media (min-width: 768px) {
+  .main-container {
+    background-image: linear-gradient(to right, #1d976c, #219a6f, #93f9b9);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-heading {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 28px;
+  }
+
+  .para {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  input {
+    height: 35px;
+    width: 240px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #ffffff;
+    outline: none;
+  }
+
+  img {
+    height: 55vh;
+    width: 40vw;
+  }
+
+  .letters-count {
+    color: #1d976c;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 21px;
+    height: 50px;
+    width: 200px;
+    padding-top: 7px;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-container {
+    background-image: linear-gradient(to right, #1d976c, #219a6f, #93f9b9);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 1;
+  }
+
+  .main-heading {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 25px;
+  }
+
+  .para {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  input {
+    height: 28px;
+    width: 200px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #ffffff;
+    outline: none;
+  }
+
+  img {
+    height: 50vh;
+    width: 60vw;
+  }
+
+  .letters-count {
+    color: #1d976c;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 30px;
+    width: 150px;
+    padding-top: 3px;
+    text-align: center;
+    font-weight: bold;
+  }
+}
